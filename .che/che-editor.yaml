@@ -5,10 +5,12 @@ inline:
     displayName: MAAP Jupyter Lab IDE
     description: Jupyter Lab IDE for MAAP
     icon: /images/notebook.svg
-    version: 1.0.0
-    title: Jupyter Lab IDE for MAAP
-    repository: 'https://github.com/igabriel85/maap-jupyter-ide'
-    firstPublicationDate: '2024-03-12'
+    attributes:
+      publisher: igabriel85
+      version: 1.0.0
+      title: Jupyter Lab IDE for MAAP
+      repository: 'https://github.com/igabriel85/maap-jupyter-ide'
+      firstPublicationDate: '2024-03-12'
   components:
     - name: jupyter-ide
       container:
