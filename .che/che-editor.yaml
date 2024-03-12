@@ -14,7 +14,7 @@ inline:
   components:
     - name: jupyter-ide
       container:
-        image: 'docker.io/igabriel85/maap-jupyter-ide:latest'
+        image: 'quay.io/igabriel185/maap-jupyter-ide:latest'
         env:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
