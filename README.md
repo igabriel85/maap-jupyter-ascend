@@ -1,4 +1,4 @@
-# Docker container for MAAP Eclipse Che workspace
+# Docker container for MAAP Eclipse Che Jupyter workspace
 
 This repository contains the Dockerfile and associated files for building a Docker container for the MAAP Eclipse Che workspace.
 It is based on the Universal developer image UBI8 provided by Red Hat.
@@ -40,19 +40,6 @@ Workspace is running on Python 3.10.13 and conda environment.
     - scikit-learn
 - 
 # IDEs
- In order to customize IDE edit the .che/che-editor.yaml file.
-Current options are supported:
- - Eclipse Theia (VSCODE) (default)
-```yaml
-id: che-incubator/che-code/latest
-```
-- PyCharm (not working)
-```yaml
-id: che-incubator/che-pycharm/latest
-```
-- IntelliJ IDEA (not working)
-```yaml
-id: che-incubator/che-intellij/latest
-```
+This container is desogned to run under Eclipse Che Jupyter lab IDE
 
 ## ToDos
