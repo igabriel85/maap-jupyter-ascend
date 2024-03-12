@@ -1,0 +1,26 @@
+schemaVersion: 2.2.2
+metadata:
+  name: maap-jupyter-starter
+components:
+  - name: maapjupyter
+    container:
+      image: quay.io/igabriel185/maap-theia-dev:latest
+      memoryLimit: 8Gi
+      memoryRequest: 4Gi
+commands:
+  - id: initgitconfig
+    exec:
+      label: "Initialization of Git config, add user and password"
+      component: maapjupyter
+      workingDir: ${HOME}
+      commandLine: "./initCredentials.sh"
+      group:
+        kind: run
+  - id: ingestdata
+    exec:
+      label: "Ingest data"
+      component: maapjupyter
+      workingDir: ${HOME}
+      commandLine: "./ingestData.sh"
+      group:
+        kind: run
