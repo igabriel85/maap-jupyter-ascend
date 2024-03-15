@@ -1,20 +1,21 @@
 inline:
   schemaVersion: 2.2.2
-metadata:
-  name: jupyter-ide
-  displayName: MAAP Jupyter Lab IDE
-  description: Jupyter Lab IDE for MAAP
-  icon: /images/notebook.svg
-  attributes:
-    publisher: igabriel85
-    version: 1.0.0
-    title: Jupyter Lab IDE for MAAP
-    repository: https://github.com/igabriel85/maap-jupyter-ide
-    firstPublicationDate: '2024-03-12'
+  metadata:
+      name: jupyter-ide
+      displayName: MAAP Jupyter Lab IDE
+      description: Jupyter Lab IDE for MAAP
+      icon: /images/notebook.svg
+      attributes:
+        publisher: igabriel85
+        version: 1.0.0
+        title: Jupyter Lab IDE for MAAP
+        repository: 'https://github.com/igabriel85/maap-jupyter-ide'
+        firstPublicationDate: '2024-03-12'
   components:
     - name: jupyter-ide
       container:
-        image: quay.io/igabriel185/maap-jupyter-ide@sha256:a4710e0b40dba51209a1eaf9766b3ea82938a3058924a825fbe24cd5f9a29ac3
+        image: >-
+          quay.io/igabriel185/maap-jupyter-ide@sha256:a4710e0b40dba51209a1eaf9766b3ea82938a3058924a825fbe24cd5f9a29ac3
         env:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
