@@ -14,8 +14,7 @@ inline:
   components:
     - name: jupyter-ide
       container:
-        image: >-
-          quay.io/igabriel185/maap-jupyter-ide@sha256:a4710e0b40dba51209a1eaf9766b3ea82938a3058924a825fbe24cd5f9a29ac3
+        image: quay.io/igabriel185/maap-jupyter-ide:latest
         env:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
