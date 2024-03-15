@@ -23,11 +23,11 @@ inline:
         imagePullPolicy: IfNotPresent
         endpoints:
           - name: jupyter
-            targetPort: 3100
+            targetPort: 8888
             exposure: public
             protocol: https
             attributes:
               type: main
         attributes:
           ports:
-            - exposedPort: 3100
+            - exposedPort: 8888
