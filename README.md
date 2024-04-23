@@ -1,8 +1,7 @@
-# Docker container for MAAP Eclipse Che Jupyter workspace
+# Repository for the Jupyter IDE devfile
 
-This repository contains the Dockerfile and associated files for building a Docker container for the MAAP Eclipse Che workspace.
-It is based on the Universal developer image UBI8 provided by Red Hat.
-Workspace is running on Python 3.10.13 and conda environment.
+This repository contains only the devfile and workspace associated with the Jupyter IDE. It doen't containe the dockerfile necessary to build the docker image for the MAAP Jupyter IDE. Please consult the [IDE repository](https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide).
+
 
 
 # Building the Docker container
