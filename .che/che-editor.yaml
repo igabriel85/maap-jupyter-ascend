@@ -21,6 +21,9 @@ inline:
         mountSources: true
         memoryLimit: 512M
         imagePullPolicy: IfNotPresent
+        volumeMounts:
+          - name: copernicus-eodata-cds-s3
+            mountPath: /projects/eodata
         endpoints:
           - name: jupyter
             targetPort: 8888
