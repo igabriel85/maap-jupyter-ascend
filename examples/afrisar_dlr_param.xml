@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orchestrator version="1">
+	<!-- PARAMETERS OF THE SCENES -->
+	<!-- forest_type: Type of forest (boreal or tropical) -->
+	<!-- frequency: Centre frequency (MHz) -->
+	<Scenes forest_type="tropical" frequency="435">
+		<!-- name: Name of the scene -->
+		<!-- heading: Direction of flight, clockwise, with respect to the North (deg)-->
+		<!-- z_flight: Average altitude of flight (m) -->
+		<!-- z_terrain: Average altitude of the ground (m) -->
+		<!-- SLR_start: Slant range swath start (m) -->
+		<!-- pixel_spacing_rg: Pixel spacing in range (m) -->
+		<!-- pixel_spacing_az: Pixel spacing in azimuth (m) -->
+		<!-- surface_resol: A0 used for sigma0 computation (m2) -->
+		<!-- GRD_resol: Ground range pixel spacing (m) -->
+		<!-- date: Date and time of acquisition (format dd/mm/year hh:mm) -->
+		<!-- dem: Suffixe of the dem map corresponding to the image -->
+		<!-- master: Name of master image if the image is coregistrated -->
+		<!-- LA LOPE -->
+		<Scene name="M0"           heading="320.0" z_flight="6382.06" z_terrain="308.17" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89060254" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 09:31" dem=""       master=""/>
+		<Scene name="M1"           heading="320.0" z_flight="6381.86" z_terrain="292.25" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89609578" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 09:44" dem=""       master=""/>
+		<Scene name="M2"           heading="320.0" z_flight="6382.39" z_terrain="273.30" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90661964" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 09:58" dem="T2-0"   master="T2-0"/>
+		<Scene name="M-1"          heading="320.0" z_flight="6381.97" z_terrain="324.41" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90010533" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 10:11" dem=""       master=""/>
+		<Scene name="M-2"          heading="320.0" z_flight="6381.80" z_terrain="338.84" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90793958" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 10:25" dem=""       master=""/>
+		<Scene name="M-3"          heading="320.0" z_flight="6381.74" z_terrain="349.41" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90619747" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 10:38" dem=""       master=""/>
+		<Scene name="M-4"          heading="320.0" z_flight="6382.36" z_terrain="357.21" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90548225" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 10:51" dem=""       master=""/>
+		<Scene name="M2-1"         heading="320.0" z_flight="6395.10" z_terrain="286.75" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90625956" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 11:05" dem="T2-0"   master="T2-0"/>
+		<Scene name="M2-2"         heading="320.0" z_flight="6352.94" z_terrain="287.45" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89035595" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 11:27" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-0"         heading="320.0" z_flight="6383.36" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:32" dem=""       master=""/>
+		<Scene name="T2-1"         heading="320.0" z_flight="6394.65" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:42" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-2"         heading="320.0" z_flight="6403.10" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:53" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-3"         heading="320.0" z_flight="6423.68" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:03" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-4"         heading="320.0" z_flight="6444.39" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:13" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-5"         heading="320.0" z_flight="6464.78" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:24" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-6"         heading="320.0" z_flight="6362.89" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:34" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-7"         heading="320.0" z_flight="6343.35" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:44" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-8"         heading="320.0" z_flight="6323.88" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:54" dem="T2-0"   master="T2-0"/>
+		<Scene name="T2-9"         heading="320.0" z_flight="6304.33" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 11:04" dem="T2-0"   master="T2-0"/>
+		<Scene name="H1-0"         heading="124.0" z_flight="6384.44" z_terrain="375.16" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75930505" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:26" dem=""       master=""/>
+		<Scene name="H2-0"         heading="230.0" z_flight="6384.60" z_terrain="303.13" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83282564" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:34" dem=""       master=""/>
+		<Scene name="H3-0"         heading="275.0" z_flight="6384.35" z_terrain="288.89" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89961816" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:42" dem=""       master=""/>
+		<Scene name="H4-0"         heading="320.0" z_flight="6383.12" z_terrain="290.30" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93528345" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:51" dem="T2-0"   master="T2-0"/>
+		<Scene name="H1-1"         heading="124.0" z_flight="6395.09" z_terrain="375.09" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75537399" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:57" dem="H1-0"   master="H1-0"/>
+		<Scene name="H2-1"         heading="230.0" z_flight="6395.55" z_terrain="303.51" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83277698" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:05" dem="H2-0"   master="H2-0"/>
+		<Scene name="H3-1"         heading="275.0" z_flight="6395.50" z_terrain="289.22" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90376620" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:13" dem="H3-0"   master="H3-0"/>
+		<Scene name="H4-1"         heading="320.0" z_flight="6394.48" z_terrain="290.68" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93596308" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:21" dem="T2-0"   master="T2-0"/>
+		<Scene name="H1-2"         heading="124.0" z_flight="6354.34" z_terrain="375.73" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76926096" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:28" dem="H1-0"   master="H1-0"/>
+		<Scene name="H2-2"         heading="230.0" z_flight="6353.88" z_terrain="303.32" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83916679" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:35" dem="H2-0"   master="H2-0"/>
+		<Scene name="H3-2"         heading="275.0" z_flight="6353.95" z_terrain="289.07" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89957594" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:43" dem="H3-0"   master="H3-0"/>
+		<Scene name="H4-2"         heading="320.0" z_flight="6353.44" z_terrain="290.09" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93186379" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:51" dem="T2-0"   master="T2-0"/>
+		<Scene name="CM2"          heading="320.0" z_flight="6382.39" z_terrain="273.30" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90661964" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 09:58" dem="T2-0"   master="T2-0"/>
+		<Scene name="CM2-1"        heading="320.0" z_flight="6395.10" z_terrain="286.75" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90625956" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 11:05" dem="T2-0"   master="T2-0"/>
+		<Scene name="CM2-2"        heading="320.0" z_flight="6352.94" z_terrain="287.45" SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89035595" surface_resol="NaN" GRD_resol="2.0" date="06/02/2016 11:27" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-0"        heading="320.0" z_flight="6383.36" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:32" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-1"        heading="320.0" z_flight="6394.65" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:42" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-2"        heading="320.0" z_flight="6403.10" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:53" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-3"        heading="320.0" z_flight="6423.68" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:03" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-4"        heading="320.0" z_flight="6444.39" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:13" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-5"        heading="320.0" z_flight="6464.78" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:24" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-6"        heading="320.0" z_flight="6362.89" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:34" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-7"        heading="320.0" z_flight="6343.35" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:44" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-8"        heading="320.0" z_flight="6323.88" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:54" dem="T2-0"   master="T2-0"/>
+		<Scene name="CT2-9"        heading="320.0" z_flight="6304.33" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 11:04" dem="T2-0"   master="T2-0"/>
+		<Scene name="CH1-0"        heading="124.0" z_flight="6384.44" z_terrain="375.16" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75930505" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:26" dem="H1-0"   master="H1-0"/>
+		<Scene name="CH2-0"        heading="230.0" z_flight="6384.60" z_terrain="303.13" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83282564" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:34" dem="H2-0"   master="H2-0"/>
+		<Scene name="CH3-0"        heading="275.0" z_flight="6384.35" z_terrain="288.89" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89961816" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:42" dem="H3-0"   master="H3-0"/>
+		<Scene name="CH4-0"        heading="320.0" z_flight="6383.12" z_terrain="290.30" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93528345" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:51" dem="T2-0"   master="T2-0"/>
+		<Scene name="CH1-1"        heading="124.0" z_flight="6395.09" z_terrain="375.09" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75537399" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 09:57" dem="H1-0"   master="H1-0"/>
+		<Scene name="CH2-1"        heading="230.0" z_flight="6395.55" z_terrain="303.51" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83277698" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:05" dem="H2-0"   master="H2-0"/>
+		<Scene name="CH3-1"        heading="275.0" z_flight="6395.50" z_terrain="289.22" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90376620" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:13" dem="H3-0"   master="H3-0"/>
+		<Scene name="CH4-1"        heading="320.0" z_flight="6394.48" z_terrain="290.68" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93596308" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:21" dem="T2-0"   master="T2-0"/>
+		<Scene name="CH1-2"        heading="124.0" z_flight="6354.34" z_terrain="375.73" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76926096" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:28" dem="H1-0"   master="H1-0"/>
+		<Scene name="CH2-2"        heading="230.0" z_flight="6353.88" z_terrain="303.32" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83916679" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:35" dem="H2-0"   master="H2-0"/>
+		<Scene name="CH3-2"        heading="275.0" z_flight="6353.95" z_terrain="289.07" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.89957594" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:43" dem="H3-0"   master="H3-0"/>
+		<Scene name="CH4-2"        heading="320.0" z_flight="6353.44" z_terrain="290.09" SLR_start="6579.4951" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.93186379" surface_resol="NaN" GRD_resol="2.0" date="15/02/2016 10:51" dem="T2-0"   master="T2-0"/>
+		<Scene name="SA_T2-0"      heading="320.0" z_flight="6383.36" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:32" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-1"      heading="320.0" z_flight="6394.65" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:42" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-2"      heading="320.0" z_flight="6403.10" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 09:53" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-3"      heading="320.0" z_flight="6423.68" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:03" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-4"      heading="320.0" z_flight="6444.39" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:13" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-5"      heading="320.0" z_flight="6464.78" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:24" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-6"      heading="320.0" z_flight="6362.89" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:34" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-7"      heading="320.0" z_flight="6343.35" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:44" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-8"      heading="320.0" z_flight="6323.88" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 10:54" dem="S_T2-0" master="T2-0"/>
+		<Scene name="SA_T2-9"      heading="320.0" z_flight="6304.33" z_terrain="287.50" SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90918798" surface_resol="NaN" GRD_resol="2.0" date="10/02/2016 11:04" dem="S_T2-0" master="T2-0"/>
+    <!-- MABOUNIE -->
+		<Scene name="Ma1-0"        heading="180.0" z_flight="6181.89" z_terrain="81.90"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.74859420" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:19" dem=""      master=""/>
+		<Scene name="Ma1-1"        heading="180.0" z_flight="6262.30" z_terrain="83.24"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83335586" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 12:20" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-2"        heading="180.0" z_flight="6242.34" z_terrain="83.72"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82974842" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 12:08" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-3"        heading="180.0" z_flight="6222.46" z_terrain="83.28"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82416615" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:53" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-5"        heading="180.0" z_flight="6192.48" z_terrain="83.13"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77394651" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:50" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-6"        heading="180.0" z_flight="6163.45" z_terrain="82.32"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76795220" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:06" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-8"        heading="180.0" z_flight="6123.29" z_terrain="82.56"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75538886" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:22" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma1-9"        heading="180.0" z_flight="6103.43" z_terrain="82.46"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76712434" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:38" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="Ma2-0"        heading="0.0"   z_flight="6182.10" z_terrain="86.27"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.88828238" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:27" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="Ma2-1"        heading="0.0"   z_flight="6194.03" z_terrain="86.01"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90501310" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:43" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="Ma2-2"        heading="0.0"   z_flight="6163.35" z_terrain="86.11"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90252000" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:58" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="Ma2-3"        heading="0.0"   z_flight="6152.36" z_terrain="85.78"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90354381" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:14" dem=""      master=""/>
+		<Scene name="CMa1-0"       heading="180.0" z_flight="6181.89" z_terrain="81.90"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.74859420" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:19" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-1"       heading="180.0" z_flight="6262.30" z_terrain="83.24"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.83335586" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 12:20" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-2"       heading="180.0" z_flight="6242.34" z_terrain="83.72"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82974842" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 12:08" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-3"       heading="180.0" z_flight="6222.46" z_terrain="83.28"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82416615" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:53" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-5"       heading="180.0" z_flight="6192.48" z_terrain="83.13"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77394651" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:50" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-6"       heading="180.0" z_flight="6163.45" z_terrain="82.32"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76795220" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:06" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-8"       heading="180.0" z_flight="6123.29" z_terrain="82.56"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.75538886" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:22" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa1-9"       heading="180.0" z_flight="6103.43" z_terrain="82.46"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.76712434" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:38" dem="Ma1-0" master="Ma1-0"/>
+		<Scene name="CMa2-0"       heading="0.0"   z_flight="6182.10" z_terrain="86.27"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.88828238" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:27" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="CMa2-1"       heading="0.0"   z_flight="6194.03" z_terrain="86.01"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90501310" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:43" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="CMa2-2"       heading="0.0"   z_flight="6163.35" z_terrain="86.11"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90252000" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 10:58" dem="Ma2-3" master="Ma2-3"/>
+		<Scene name="CMa2-3"       heading="0.0"   z_flight="6152.36" z_terrain="85.78"  SLR_start="6536.3352" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.90354381" surface_resol="NaN" GRD_resol="2.0" date="11/02/2016 11:14" dem="Ma2-3" master="Ma2-3"/>
+		<!-- MONDAH -->
+		<Scene name="Mo1-0"        heading="90.0"  z_flight="6165.63" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:23" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-1"        heading="90.0"  z_flight="6244.02" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:33" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-2"        heading="90.0"  z_flight="6226.15" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:43" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-3"        heading="90.0"  z_flight="6205.83" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:53" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-4"        heading="90.0"  z_flight="6185.42" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:03" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-5"        heading="90.0"  z_flight="6173.34" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:13" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-6"        heading="90.0"  z_flight="6145.07" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:23" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-7"        heading="90.0"  z_flight="6124.64" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:32" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-8"        heading="90.0"  z_flight="6106.29" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:42" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-9"        heading="90.0"  z_flight="6085.39" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:52" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-10"       heading="90.0"  z_flight="6134.93" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 12:01" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-0_FL05"   heading="90.0"  z_flight="6165.92" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:17" dem=""           master=""/>
+		<Scene name="Mo1-5_FL05"   heading="90.0"  z_flight="6173.73" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:29" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-10_FL05"  heading="90.0"  z_flight="6135.56" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:39" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-0_FL08"   heading="90.0"  z_flight="6165.50" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:02" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-5_FL08"   heading="90.0"  z_flight="6174.03" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:12" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="Mo1-10_FL08"  heading="90.0"  z_flight="6135.15" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:22" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-0"       heading="90.0"  z_flight="6165.63" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:23" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-1"       heading="90.0"  z_flight="6244.02" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:33" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-2"       heading="90.0"  z_flight="6226.15" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:43" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-3"       heading="90.0"  z_flight="6205.83" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 10:53" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-4"       heading="90.0"  z_flight="6185.42" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:03" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-5"       heading="90.0"  z_flight="6173.34" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:13" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-6"       heading="90.0"  z_flight="6145.07" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:23" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-7"       heading="90.0"  z_flight="6124.64" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:32" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-8"       heading="90.0"  z_flight="6106.29" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:42" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-9"       heading="90.0"  z_flight="6085.39" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 11:52" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-10"      heading="90.0"  z_flight="6134.93" z_terrain="17.08"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.77923878" surface_resol="NaN" GRD_resol="2.0" date="04/02/2016 12:01" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-0_FL05"  heading="90.0"  z_flight="6165.92" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:17" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-5_FL05"  heading="90.0"  z_flight="6173.73" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:29" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-10_FL05" heading="90.0"  z_flight="6135.56" z_terrain="17.31"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.81009310" surface_resol="NaN" GRD_resol="2.0" date="08/02/2016 10:39" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-0_FL08"  heading="90.0"  z_flight="6165.50" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:02" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-5_FL08"  heading="90.0"  z_flight="6174.03" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:12" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<Scene name="CMo1-10_FL08" heading="90.0"  z_flight="6135.15" z_terrain="16.89"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.82857874" surface_resol="NaN" GRD_resol="2.0" date="12/02/2016 09:22" dem="Mo1-0_FL05" master="Mo1-0_FL05"/>
+		<!-- RABI -->
+		<Scene name="Ra1-0"        heading="310.0" z_flight="6153.78" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:33" dem=""      master=""/>
+		<Scene name="Ra1-1"        heading="310.0" z_flight="6164.17" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:43" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="Ra1-2"        heading="310.0" z_flight="6134.41" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:53" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="Ra1-3"        heading="310.0" z_flight="6122.48" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 10:03" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="CRa1-0"       heading="310.0" z_flight="6153.78" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:33" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="CRa1-1"       heading="310.0" z_flight="6164.17" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:43" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="CRa1-2"       heading="310.0" z_flight="6134.41" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 09:53" dem="Ra1-0" master="Ra1-0"/>
+		<Scene name="CRa1-3"       heading="310.0" z_flight="6122.48" z_terrain="63.25"  SLR_start="6627.4507" pixel_spacing_rg="1.1988876" pixel_spacing_az="0.91598280" surface_resol="NaN" GRD_resol="2.0" date="07/02/2016 10:03" dem="Ra1-0" master="Ra1-0"/>
+	</Scenes>
+	<!-- PARAMETERS OF THE ROIs -->
+	<ROIs>
+		<!-- name: Name of the ROI -->
+		<!-- biomass: Estimated in-situ Above Ground Biomass (ton/ha) -->
+		<!-- biomass_error: Erreur related to the estimated in-situ Above Ground Biomass (ton/ha) -->
+		<!-- height: Estimated canopy height (m) -->
+		<!-- height_error: Erreur related to the estimated canopy height (m) -->
+		<!--      O R I G I N A L    D A T A S E T      -->
+		<!-- LA LOPE -->
+		<ROI name="SAV1"     biomass="0.6"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="SAV2"     biomass="2.3"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="SAV3"     biomass="22.2"  biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="COL1"     biomass="247.3" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="COL2"     biomass="59.3"  biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="COL3"     biomass="243.2" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="OKO1"     biomass="340.6" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="OKO2"     biomass="315.5" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="OKO3"     biomass="379.9" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MAR1"     biomass="381.9" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MAR2"     biomass="348.3" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MIX1"     biomass="306.7" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="ANGK"     biomass="460.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<!-- MABOUNIE -->
+		<ROI name="Mabou001" biomass="295.7" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="Mabou003" biomass="342.1" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="Mabou004" biomass="456.8" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="Mabou006" biomass="308.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="Mabou008" biomass="293.7" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="Mabou012" biomass="152.1" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<!-- MONDAH -->
+		<ROI name="MND01"    biomass="352.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MND02"    biomass="400.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MND03"    biomass="445.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MND04"    biomass="443.0" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<!-- RABI -->
+		<ROI name="RABI"     biomass="204.8" biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<!--      N E W    D A T A S E T      -->
+		<!-- LA LOPE -->
+		<ROI name="LOP01h"   biomass="0.0"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP02h"   biomass="0.3"   biomass_error="NaN" height="0.3"  height_error="NaN"/>
+		<ROI name="LOP03h"   biomass="15.5"  biomass_error="NaN" height="1.3"  height_error="NaN"/>
+		<ROI name="LOP07h"   biomass="317.9" biomass_error="NaN" height="33.2" height_error="NaN"/>
+		<ROI name="LOP08h"   biomass="290.4" biomass_error="NaN" height="30.5" height_error="NaN"/>
+		<ROI name="LOP09h"   biomass="348.6" biomass_error="NaN" height="39.7" height_error="NaN"/>
+		<ROI name="LOP10h"   biomass="375.1" biomass_error="NaN" height="30.9" height_error="NaN"/>
+		<ROI name="LOP11h"   biomass="349.7" biomass_error="NaN" height="28.6" height_error="NaN"/>
+		<ROI name="LOP12h"   biomass="321.4" biomass_error="NaN" height="25.9" height_error="NaN"/>
+		<ROI name="LPG01h"   biomass="439.1" biomass_error="NaN" height="31.8" height_error="NaN"/>
+		<ROI name="LPG02h"   biomass="547.3" biomass_error="NaN" height="33.4" height_error="NaN"/>
+		<ROI name="LOP01q1"  biomass="0.0"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP01q2"  biomass="0.0"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP01q3"  biomass="0.0"   biomass_error="NaN" height="0.3"  height_error="NaN"/>
+		<ROI name="LOP01q4"  biomass="0.0"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP02q1"  biomass="0.0"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP02q2"  biomass="0.2"   biomass_error="NaN" height="0.2"  height_error="NaN"/>
+		<ROI name="LOP02q3"  biomass="0.8"   biomass_error="NaN" height="0.4"  height_error="NaN"/>
+		<ROI name="LOP02q4"  biomass="0.4"   biomass_error="NaN" height="0.3"  height_error="NaN"/>
+		<ROI name="LOP03q1"  biomass="8.7"   biomass_error="NaN" height="1.0"  height_error="NaN"/>
+		<ROI name="LOP03q2"  biomass="50.1"  biomass_error="NaN" height="3.3"  height_error="NaN"/>
+		<ROI name="LOP03q3"  biomass="0.8"   biomass_error="NaN" height="0.5"  height_error="NaN"/>
+		<ROI name="LOP03q4"  biomass="2.4"   biomass_error="NaN" height="0.6"  height_error="NaN"/>
+		<ROI name="LOP04q1"  biomass="300.5" biomass_error="NaN" height="36.0" height_error="NaN"/>
+		<ROI name="LOP04q2"  biomass="138.0" biomass_error="NaN" height="24.2" height_error="NaN"/>
+		<ROI name="LOP05q1"  biomass="39.0"  biomass_error="NaN" height="4.8"  height_error="NaN"/>
+		<ROI name="LOP05q2"  biomass="63.3"  biomass_error="NaN" height="6.8"  height_error="NaN"/>
+		<ROI name="LOP06q1"  biomass="156.8" biomass_error="NaN" height="17.5" height_error="NaN"/>
+		<ROI name="LOP06q2"  biomass="206.1" biomass_error="NaN" height="22.3" height_error="NaN"/>
+		<ROI name="LOP07q1"  biomass="362.3" biomass_error="NaN" height="37.0" height_error="NaN"/>
+		<ROI name="LOP07q2"  biomass="324.6" biomass_error="NaN" height="33.7" height_error="NaN"/>
+		<ROI name="LOP07q3"  biomass="289.5" biomass_error="NaN" height="32.2" height_error="NaN"/>
+		<ROI name="LOP07q4"  biomass="295.1" biomass_error="NaN" height="29.9" height_error="NaN"/>
+		<ROI name="LOP08q1"  biomass="296.9" biomass_error="NaN" height="31.8" height_error="NaN"/>
+		<ROI name="LOP08q2"  biomass="302.9" biomass_error="NaN" height="30.7" height_error="NaN"/>
+		<ROI name="LOP08q3"  biomass="276.8" biomass_error="NaN" height="29.7" height_error="NaN"/>
+		<ROI name="LOP08q4"  biomass="285.0" biomass_error="NaN" height="29.6" height_error="NaN"/>
+		<ROI name="LOP09q1"  biomass="433.2" biomass_error="NaN" height="43.2" height_error="NaN"/>
+		<ROI name="LOP09q2"  biomass="299.6" biomass_error="NaN" height="40.1" height_error="NaN"/>
+		<ROI name="LOP09q3"  biomass="262.0" biomass_error="NaN" height="38.9" height_error="NaN"/>
+		<ROI name="LOP09q4"  biomass="399.5" biomass_error="NaN" height="36.5" height_error="NaN"/>
+		<ROI name="LOP10q1"  biomass="337.0" biomass_error="NaN" height="28.3" height_error="NaN"/>
+		<ROI name="LOP10q2"  biomass="300.4" biomass_error="NaN" height="29.9" height_error="NaN"/>
+		<ROI name="LOP10q3"  biomass="502.4" biomass_error="NaN" height="34.4" height_error="NaN"/>
+		<ROI name="LOP10q4"  biomass="360.4" biomass_error="NaN" height="31.1" height_error="NaN"/>
+		<ROI name="LOP11q1"  biomass="431.8" biomass_error="NaN" height="29.3" height_error="NaN"/>
+		<ROI name="LOP11q2"  biomass="273.7" biomass_error="NaN" height="27.0" height_error="NaN"/>
+		<ROI name="LOP11q3"  biomass="371.2" biomass_error="NaN" height="29.6" height_error="NaN"/>
+		<ROI name="LOP11q4"  biomass="322.2" biomass_error="NaN" height="28.5" height_error="NaN"/>
+		<ROI name="LOP12q1"  biomass="359.5" biomass_error="NaN" height="30.5" height_error="NaN"/>
+		<ROI name="LOP12q2"  biomass="303.2" biomass_error="NaN" height="21.9" height_error="NaN"/>
+		<ROI name="LOP12q3"  biomass="398.8" biomass_error="NaN" height="29.8" height_error="NaN"/>
+		<ROI name="LOP12q4"  biomass="224.1" biomass_error="NaN" height="21.6" height_error="NaN"/>
+		<ROI name="LPG01q1"  biomass="370.2" biomass_error="NaN" height="31.4" height_error="NaN"/>
+		<ROI name="LPG01q2"  biomass="384.7" biomass_error="NaN" height="29.4" height_error="NaN"/>
+		<ROI name="LPG01q3"  biomass="254.2" biomass_error="NaN" height="30.9" height_error="NaN"/>
+		<ROI name="LPG01q4"  biomass="746.2" biomass_error="NaN" height="35.6" height_error="NaN"/>
+		<ROI name="LPG02q1"  biomass="423.7" biomass_error="NaN" height="34.7" height_error="NaN"/>
+		<ROI name="LPG02q2"  biomass="860.4" biomass_error="NaN" height="31.5" height_error="NaN"/>
+		<ROI name="LPG02q3"  biomass="275.2" biomass_error="NaN" height="31.4" height_error="NaN"/>
+		<ROI name="LPG02q4"  biomass="624.8" biomass_error="NaN" height="36.2" height_error="NaN"/>
+		<!-- MABOUNIE -->
+		<ROI name="MAB01h"   biomass="327.7" biomass_error="NaN" height="24.1" height_error="NaN"/>
+		<ROI name="MAB02h"   biomass="302.4" biomass_error="NaN" height="29.1" height_error="NaN"/>
+		<ROI name="MAB03h"   biomass="333.6" biomass_error="NaN" height="26.7" height_error="NaN"/>
+		<ROI name="MAB04h"   biomass="459.0" biomass_error="NaN" height="31.9" height_error="NaN"/>
+		<ROI name="MAB05h"   biomass="438.8" biomass_error="NaN" height="29.6" height_error="NaN"/>
+		<ROI name="MAB06h"   biomass="309.4" biomass_error="NaN" height="26.7" height_error="NaN"/>
+		<ROI name="MAB07h"   biomass="247.0" biomass_error="NaN" height="23.0" height_error="NaN"/>
+		<ROI name="MAB08h"   biomass="290.9" biomass_error="NaN" height="26.3" height_error="NaN"/>
+		<ROI name="MAB09h"   biomass="411.0" biomass_error="NaN" height="34.5" height_error="NaN"/>
+		<ROI name="MAB10h"   biomass="344.8" biomass_error="NaN" height="28.9" height_error="NaN"/>
+		<ROI name="MAB11h"   biomass="523.2" biomass_error="NaN" height="40.6" height_error="NaN"/>
+		<ROI name="MAB12h"   biomass="171.8" biomass_error="NaN" height="15.8" height_error="NaN"/>
+		<ROI name="MAB01c1"  biomass="208.5" biomass_error="NaN" height="24.9" height_error="NaN"/>
+		<ROI name="MAB01c2"  biomass="343.7" biomass_error="NaN" height="23.9" height_error="NaN"/>
+		<ROI name="MAB01c3"  biomass="284.2" biomass_error="NaN" height="24.4" height_error="NaN"/>
+		<ROI name="MAB01c4"  biomass="243.7" biomass_error="NaN" height="20.4" height_error="NaN"/>
+		<ROI name="MAB02c1"  biomass="295.8" biomass_error="NaN" height="26.2" height_error="NaN"/>
+		<ROI name="MAB02c2"  biomass="167.2" biomass_error="NaN" height="26.2" height_error="NaN"/>
+		<ROI name="MAB02c3"  biomass="272.0" biomass_error="NaN" height="31.4" height_error="NaN"/>
+		<ROI name="MAB02c4"  biomass="492.2" biomass_error="NaN" height="30.4" height_error="NaN"/>
+		<ROI name="MAB03c1"  biomass="219.7" biomass_error="NaN" height="27.6" height_error="NaN"/>
+		<ROI name="MAB03c2"  biomass="296.4" biomass_error="NaN" height="29.5" height_error="NaN"/>
+		<ROI name="MAB03c3"  biomass="737.9" biomass_error="NaN" height="29.2" height_error="NaN"/>
+		<ROI name="MAB03c4"  biomass="310.0" biomass_error="NaN" height="22.1" height_error="NaN"/>
+		<ROI name="MAB04c1"  biomass="442.3" biomass_error="NaN" height="31.9" height_error="NaN"/>
+		<ROI name="MAB04c2"  biomass="416.5" biomass_error="NaN" height="34.7" height_error="NaN"/>
+		<ROI name="MAB04c3"  biomass="579.0" biomass_error="NaN" height="34.9" height_error="NaN"/>
+		<ROI name="MAB04c4"  biomass="265.4" biomass_error="NaN" height="28.7" height_error="NaN"/>
+		<ROI name="MAB05c1"  biomass="453.1" biomass_error="NaN" height="29.0" height_error="NaN"/>
+		<ROI name="MAB05c2"  biomass="283.7" biomass_error="NaN" height="25.1" height_error="NaN"/>
+		<ROI name="MAB05c3"  biomass="298.3" biomass_error="NaN" height="21.9" height_error="NaN"/>
+		<ROI name="MAB05c4"  biomass="360.5" biomass_error="NaN" height="42.3" height_error="NaN"/>
+		<ROI name="MAB06c1"  biomass="263.8" biomass_error="NaN" height="24.1" height_error="NaN"/>
+		<ROI name="MAB06c2"  biomass="351.6" biomass_error="NaN" height="33.4" height_error="NaN"/>
+		<ROI name="MAB06c3"  biomass="182.2" biomass_error="NaN" height="22.2" height_error="NaN"/>
+		<ROI name="MAB06c4"  biomass="406.1" biomass_error="NaN" height="24.6" height_error="NaN"/>
+		<ROI name="MAB07c1"  biomass="214.9" biomass_error="NaN" height="24.8" height_error="NaN"/>
+		<ROI name="MAB07c2"  biomass="218.8" biomass_error="NaN" height="22.2" height_error="NaN"/>
+		<ROI name="MAB07c3"  biomass="189.1" biomass_error="NaN" height="21.1" height_error="NaN"/>
+		<ROI name="MAB07c4"  biomass="341.8" biomass_error="NaN" height="22.4" height_error="NaN"/>
+		<ROI name="MAB08c1"  biomass="251.6" biomass_error="NaN" height="30.3" height_error="NaN"/>
+		<ROI name="MAB08c2"  biomass="298.8" biomass_error="NaN" height="26.0" height_error="NaN"/>
+		<ROI name="MAB08c3"  biomass="241.5" biomass_error="NaN" height="24.9" height_error="NaN"/>
+		<ROI name="MAB08c4"  biomass="304.4" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="MAB09c1"  biomass="403.8" biomass_error="NaN" height="31.9" height_error="NaN"/>
+		<ROI name="MAB09c2"  biomass="370.9" biomass_error="NaN" height="41.3" height_error="NaN"/>
+		<ROI name="MAB09c3"  biomass="412.4" biomass_error="NaN" height="34.8" height_error="NaN"/>
+		<ROI name="MAB09c4"  biomass="567.5" biomass_error="NaN" height="32.1" height_error="NaN"/>
+		<ROI name="MAB10c1"  biomass="360.7" biomass_error="NaN" height="34.0" height_error="NaN"/>
+		<ROI name="MAB10c2"  biomass="231.7" biomass_error="NaN" height="23.9" height_error="NaN"/>
+		<ROI name="MAB10c3"  biomass="506.3" biomass_error="NaN" height="31.5" height_error="NaN"/>
+		<ROI name="MAB10c4"  biomass="559.3" biomass_error="NaN" height="28.4" height_error="NaN"/>
+		<ROI name="MAB11c1"  biomass="402.7" biomass_error="NaN" height="38.7" height_error="NaN"/>
+		<ROI name="MAB11c2"  biomass="424.3" biomass_error="NaN" height="38.4" height_error="NaN"/>
+		<ROI name="MAB11c3"  biomass="918.2" biomass_error="NaN" height="37.6" height_error="NaN"/>
+		<ROI name="MAB11c4"  biomass="329.9" biomass_error="NaN" height="50.2" height_error="NaN"/>
+		<ROI name="MAB12c1"  biomass="263.0" biomass_error="NaN" height="17.2" height_error="NaN"/>
+		<ROI name="MAB12c2"  biomass="140.3" biomass_error="NaN" height="16.3" height_error="NaN"/>
+		<ROI name="MAB12c3"  biomass="145.0" biomass_error="NaN" height="14.3" height_error="NaN"/>
+		<ROI name="MAB12c4"  biomass="135.8" biomass_error="NaN" height="13.2" height_error="NaN"/>
+		<!-- MONDAH -->
+		<ROI name="MNG03h"   biomass="510.6" biomass_error="NaN" height="45.0" height_error="NaN"/>
+		<ROI name="MNG04h"   biomass="444.0" biomass_error="NaN" height="33.0" height_error="NaN"/>
+		<ROI name="MON01h"   biomass="25.6"  biomass_error="NaN" height="5.9"  height_error="NaN"/>
+		<ROI name="MON02h"   biomass="294.7" biomass_error="NaN" height="20.6" height_error="NaN"/>
+		<ROI name="MON03h"   biomass="56.8"  biomass_error="NaN" height="7.8"  height_error="NaN"/>
+		<ROI name="MON05h"   biomass="93.2"  biomass_error="NaN" height="9.7"  height_error="NaN"/>
+		<ROI name="MON09h"   biomass="2.3"   biomass_error="NaN" height="2.2"  height_error="NaN"/>
+		<ROI name="MON10h"   biomass="103.4" biomass_error="NaN" height="14.4" height_error="NaN"/>
+		<ROI name="MON11h"   biomass="35.0"  biomass_error="NaN" height="9.1"  height_error="NaN"/>
+		<ROI name="MON13h"   biomass="247.8" biomass_error="NaN" height="20.0" height_error="NaN"/>
+		<ROI name="MON14h"   biomass="149.9" biomass_error="NaN" height="15.3" height_error="NaN"/>
+		<ROI name="MON19h"   biomass="3.4"   biomass_error="NaN" height="1.5"  height_error="NaN"/>
+		<ROI name="MON20h"   biomass="70.3"  biomass_error="NaN" height="18.7" height_error="NaN"/>
+		<ROI name="MON21h"   biomass="2.4"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MON21Ah"  biomass="160.3" biomass_error="NaN" height="13.8" height_error="NaN"/>
+		<ROI name="MON22h"   biomass="289.1" biomass_error="NaN" height="18.5" height_error="NaN"/>
+		<ROI name="MON23h"   biomass="128.8" biomass_error="NaN" height="20.8" height_error="NaN"/>
+		<ROI name="MND01q1"  biomass="416.6" biomass_error="NaN" height="43.5" height_error="NaN"/>
+		<ROI name="MND01q2"  biomass="402.5" biomass_error="NaN" height="46.1" height_error="NaN"/>
+		<ROI name="MND01q3"  biomass="429.1" biomass_error="NaN" height="44.5" height_error="NaN"/>
+		<ROI name="MND01q4"  biomass="454.5" biomass_error="NaN" height="45.7" height_error="NaN"/>
+		<ROI name="MND02q1"  biomass="319.1" biomass_error="NaN" height="44.8" height_error="NaN"/>
+		<ROI name="MND02q2"  biomass="484.2" biomass_error="NaN" height="41.4" height_error="NaN"/>
+		<ROI name="MND02q3"  biomass="496.8" biomass_error="NaN" height="44.7" height_error="NaN"/>
+		<ROI name="MND02q4"  biomass="572.5" biomass_error="NaN" height="39.0" height_error="NaN"/>
+		<ROI name="MNG03q1"  biomass="564.2" biomass_error="NaN" height="45.3" height_error="NaN"/>
+		<ROI name="MNG03q2"  biomass="516.1" biomass_error="NaN" height="47.9" height_error="NaN"/>
+		<ROI name="MNG03q3"  biomass="416.8" biomass_error="NaN" height="43.4" height_error="NaN"/>
+		<ROI name="MNG03q4"  biomass="545.3" biomass_error="NaN" height="43.2" height_error="NaN"/>
+		<ROI name="MNG04q1"  biomass="610.5" biomass_error="NaN" height="35.8" height_error="NaN"/>
+		<ROI name="MNG04q2"  biomass="362.2" biomass_error="NaN" height="29.5" height_error="NaN"/>
+		<ROI name="MNG04q3"  biomass="344.2" biomass_error="NaN" height="34.0" height_error="NaN"/>
+		<ROI name="MNG04q4"  biomass="459.2" biomass_error="NaN" height="32.6" height_error="NaN"/>
+		<ROI name="MON01q1"  biomass="13.8"  biomass_error="NaN" height="3.1"  height_error="NaN"/>
+		<ROI name="MON01q2"  biomass="6.8"   biomass_error="NaN" height="2.1"  height_error="NaN"/>
+		<ROI name="MON01q3"  biomass="31.1"  biomass_error="NaN" height="6.8"  height_error="NaN"/>
+		<ROI name="MON01q4"  biomass="50.6"  biomass_error="NaN" height="11.6" height_error="NaN"/>
+		<ROI name="MON02q1"  biomass="183.5" biomass_error="NaN" height="13.6" height_error="NaN"/>
+		<ROI name="MON02q2"  biomass="151.5" biomass_error="NaN" height="13.4" height_error="NaN"/>
+		<ROI name="MON02q3"  biomass="674.8" biomass_error="NaN" height="33.4" height_error="NaN"/>
+		<ROI name="MON02q4"  biomass="169.0" biomass_error="NaN" height="21.9" height_error="NaN"/>
+		<ROI name="MON03q1"  biomass="29.9"  biomass_error="NaN" height="4.5"  height_error="NaN"/>
+		<ROI name="MON03q2"  biomass="16.5"  biomass_error="NaN" height="3.5"  height_error="NaN"/>
+		<ROI name="MON03q3"  biomass="69.0"  biomass_error="NaN" height="10.5" height_error="NaN"/>
+		<ROI name="MON03q4"  biomass="111.9" biomass_error="NaN" height="12.9" height_error="NaN"/>
+		<ROI name="MON05q1"  biomass="143.0" biomass_error="NaN" height="11.2" height_error="NaN"/>
+		<ROI name="MON05q2"  biomass="153.7" biomass_error="NaN" height="15.6" height_error="NaN"/>
+		<ROI name="MON05q3"  biomass="29.9"  biomass_error="NaN" height="5.8"  height_error="NaN"/>
+		<ROI name="MON05q4"  biomass="46.2"  biomass_error="NaN" height="6.3"  height_error="NaN"/>
+		<ROI name="MON09q1"  biomass="1.8"   biomass_error="NaN" height="2.3"  height_error="NaN"/>
+		<ROI name="MON09q2"  biomass="1.5"   biomass_error="NaN" height="1.0"  height_error="NaN"/>
+		<ROI name="MON09q3"  biomass="0.7"   biomass_error="NaN" height="1.1"  height_error="NaN"/>
+		<ROI name="MON09q4"  biomass="5.1"   biomass_error="NaN" height="4.5"  height_error="NaN"/>
+		<ROI name="MON10q1"  biomass="91.0"  biomass_error="NaN" height="13.3" height_error="NaN"/>
+		<ROI name="MON10q2"  biomass="111.4" biomass_error="NaN" height="8.4"  height_error="NaN"/>
+		<ROI name="MON10q3"  biomass="61.4"  biomass_error="NaN" height="15.6" height_error="NaN"/>
+		<ROI name="MON10q4"  biomass="149.7" biomass_error="NaN" height="20.3" height_error="NaN"/>
+		<ROI name="MON11q1"  biomass="18.4"  biomass_error="NaN" height="9.4"  height_error="NaN"/>
+		<ROI name="MON11q2"  biomass="29.6"  biomass_error="NaN" height="8.7"  height_error="NaN"/>
+		<ROI name="MON11q3"  biomass="34.3"  biomass_error="NaN" height="7.6"  height_error="NaN"/>
+		<ROI name="MON11q4"  biomass="57.7"  biomass_error="NaN" height="10.5" height_error="NaN"/>
+		<ROI name="MON13q1"  biomass="329.2" biomass_error="NaN" height="26.8" height_error="NaN"/>
+		<ROI name="MON13q2"  biomass="256.9" biomass_error="NaN" height="21.6" height_error="NaN"/>
+		<ROI name="MON13q3"  biomass="165.7" biomass_error="NaN" height="16.1" height_error="NaN"/>
+		<ROI name="MON13q4"  biomass="239.4" biomass_error="NaN" height="15.3" height_error="NaN"/>
+		<ROI name="MON14q1"  biomass="226.6" biomass_error="NaN" height="20.7" height_error="NaN"/>
+		<ROI name="MON14q2"  biomass="184.9" biomass_error="NaN" height="17.1" height_error="NaN"/>
+		<ROI name="MON14q3"  biomass="122.9" biomass_error="NaN" height="12.9" height_error="NaN"/>
+		<ROI name="MON14q4"  biomass="65.1"  biomass_error="NaN" height="10.6" height_error="NaN"/>
+		<ROI name="MON19q1"  biomass="8.7"   biomass_error="NaN" height="2.2"  height_error="NaN"/>
+		<ROI name="MON19q2"  biomass="0.4"   biomass_error="NaN" height="0.9"  height_error="NaN"/>
+		<ROI name="MON19q3"  biomass="4.1"   biomass_error="NaN" height="1.8"  height_error="NaN"/>
+		<ROI name="MON19q4"  biomass="0.6"   biomass_error="NaN" height="1.1"  height_error="NaN"/>
+		<ROI name="MON20q1"  biomass="128.5" biomass_error="NaN" height="20.4" height_error="NaN"/>
+		<ROI name="MON20q2"  biomass="114.9" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="MON20q3"  biomass="25.2"  biomass_error="NaN" height="6.8"  height_error="NaN"/>
+		<ROI name="MON20q4"  biomass="12.4"  biomass_error="NaN" height="23.6" height_error="NaN"/>
+		<ROI name="MON21q1"  biomass="0.3"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MON21q2"  biomass="0.0"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MON21q3"  biomass="5.1"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MON21q4"  biomass="4.1"   biomass_error="NaN" height="NaN"  height_error="NaN"/>
+		<ROI name="MON21Aq1" biomass="133.9" biomass_error="NaN" height="13.6" height_error="NaN"/>
+		<ROI name="MON21Aq2" biomass="87.8"  biomass_error="NaN" height="9.8"  height_error="NaN"/>
+		<ROI name="MON21Aq3" biomass="233.0" biomass_error="NaN" height="17.7" height_error="NaN"/>
+		<ROI name="MON21Aq4" biomass="186.4" biomass_error="NaN" height="14.0" height_error="NaN"/>
+		<ROI name="MON22q1"  biomass="137.8" biomass_error="NaN" height="11.3" height_error="NaN"/>
+		<ROI name="MON22q2"  biomass="417.8" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="MON22q3"  biomass="142.2" biomass_error="NaN" height="13.2" height_error="NaN"/>
+		<ROI name="MON22q4"  biomass="458.7" biomass_error="NaN" height="25.7" height_error="NaN"/>
+		<ROI name="MON23q1"  biomass="309.2" biomass_error="NaN" height="26.5" height_error="NaN"/>
+		<ROI name="MON23q2"  biomass="154.7" biomass_error="NaN" height="20.9" height_error="NaN"/>
+		<ROI name="MON23q3"  biomass="20.5"  biomass_error="NaN" height="23.7" height_error="NaN"/>
+		<ROI name="MON23q4"  biomass="30.9"  biomass_error="NaN" height="12.1" height_error="NaN"/>
+		<!-- RABI -->
+		<ROI name="RAB01h"   biomass="210.7" biomass_error="NaN" height="19.7" height_error="NaN"/>
+		<ROI name="RAB02h"   biomass="280.3" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="RAB03h"   biomass="303.2" biomass_error="NaN" height="25.6" height_error="NaN"/>
+		<ROI name="RAB04h"   biomass="300.1" biomass_error="NaN" height="26.8" height_error="NaN"/>
+		<ROI name="RAB05h"   biomass="320.6" biomass_error="NaN" height="26.6" height_error="NaN"/>
+		<ROI name="RAB06h"   biomass="301.0" biomass_error="NaN" height="27.8" height_error="NaN"/>
+		<ROI name="RAB07h"   biomass="413.2" biomass_error="NaN" height="27.5" height_error="NaN"/>
+		<ROI name="RAB08h"   biomass="209.4" biomass_error="NaN" height="21.0" height_error="NaN"/>
+		<ROI name="RAB09h"   biomass="280.1" biomass_error="NaN" height="21.8" height_error="NaN"/>
+		<ROI name="RAB10h"   biomass="323.3" biomass_error="NaN" height="24.8" height_error="NaN"/>
+		<ROI name="RAB11h"   biomass="287.8" biomass_error="NaN" height="26.2" height_error="NaN"/>
+		<ROI name="RAB12h"   biomass="310.1" biomass_error="NaN" height="25.1" height_error="NaN"/>
+		<ROI name="RAB13h"   biomass="246.4" biomass_error="NaN" height="21.9" height_error="NaN"/>
+		<ROI name="RAB14h"   biomass="245.6" biomass_error="NaN" height="22.2" height_error="NaN"/>
+		<ROI name="RAB15h"   biomass="313.1" biomass_error="NaN" height="26.5" height_error="NaN"/>
+		<ROI name="RAB16h"   biomass="253.7" biomass_error="NaN" height="20.5" height_error="NaN"/>
+		<ROI name="RAB17h"   biomass="265.9" biomass_error="NaN" height="25.0" height_error="NaN"/>
+		<ROI name="RAB18h"   biomass="262.5" biomass_error="NaN" height="23.2" height_error="NaN"/>
+		<ROI name="RAB19h"   biomass="255.1" biomass_error="NaN" height="22.4" height_error="NaN"/>
+		<ROI name="RAB20h"   biomass="348.5" biomass_error="NaN" height="25.8" height_error="NaN"/>
+		<ROI name="RAB21h"   biomass="301.2" biomass_error="NaN" height="25.2" height_error="NaN"/>
+		<ROI name="RAB22h"   biomass="246.7" biomass_error="NaN" height="25.7" height_error="NaN"/>
+		<ROI name="RAB23h"   biomass="296.1" biomass_error="NaN" height="26.4" height_error="NaN"/>
+		<ROI name="RAB24h"   biomass="511.8" biomass_error="NaN" height="33.1" height_error="NaN"/>
+		<ROI name="RAB25h"   biomass="293.4" biomass_error="NaN" height="24.8" height_error="NaN"/>
+		<ROI name="RAB001q"  biomass="252.6" biomass_error="NaN" height="25.1" height_error="NaN"/>
+		<ROI name="RAB002q"  biomass="161.2" biomass_error="NaN" height="17.4" height_error="NaN"/>
+		<ROI name="RAB003q"  biomass="368.6" biomass_error="NaN" height="25.4" height_error="NaN"/>
+		<ROI name="RAB004q"  biomass="215.3" biomass_error="NaN" height="23.8" height_error="NaN"/>
+		<ROI name="RAB005q"  biomass="287.5" biomass_error="NaN" height="22.2" height_error="NaN"/>
+		<ROI name="RAB006q"  biomass="231.2" biomass_error="NaN" height="24.9" height_error="NaN"/>
+		<ROI name="RAB007q"  biomass="369.2" biomass_error="NaN" height="27.1" height_error="NaN"/>
+		<ROI name="RAB008q"  biomass="282.7" biomass_error="NaN" height="29.3" height_error="NaN"/>
+		<ROI name="RAB009q"  biomass="410.3" biomass_error="NaN" height="30.6" height_error="NaN"/>
+		<ROI name="RAB010q"  biomass="441.0" biomass_error="NaN" height="28.0" height_error="NaN"/>
+		<ROI name="RAB011q"  biomass="200.3" biomass_error="NaN" height="20.2" height_error="NaN"/>
+		<ROI name="RAB012q"  biomass="228.7" biomass_error="NaN" height="15.9" height_error="NaN"/>
+		<ROI name="RAB013q"  biomass="304.7" biomass_error="NaN" height="21.1" height_error="NaN"/>
+		<ROI name="RAB014q"  biomass="229.6" biomass_error="NaN" height="25.9" height_error="NaN"/>
+		<ROI name="RAB015q"  biomass="326.4" biomass_error="NaN" height="26.6" height_error="NaN"/>
+		<ROI name="RAB016q"  biomass="367.6" biomass_error="NaN" height="28.5" height_error="NaN"/>
+		<ROI name="RAB017q"  biomass="232.3" biomass_error="NaN" height="24.5" height_error="NaN"/>
+		<ROI name="RAB018q"  biomass="315.9" biomass_error="NaN" height="26.4" height_error="NaN"/>
+		<ROI name="RAB019q"  biomass="205.3" biomass_error="NaN" height="23.2" height_error="NaN"/>
+		<ROI name="RAB020q"  biomass="225.9" biomass_error="NaN" height="24.6" height_error="NaN"/>
+		<ROI name="RAB021q"  biomass="243.4" biomass_error="NaN" height="25.5" height_error="NaN"/>
+		<ROI name="RAB022q"  biomass="376.9" biomass_error="NaN" height="29.6" height_error="NaN"/>
+		<ROI name="RAB023q"  biomass="348.9" biomass_error="NaN" height="22.1" height_error="NaN"/>
+		<ROI name="RAB024q"  biomass="650.6" biomass_error="NaN" height="29.8" height_error="NaN"/>
+		<ROI name="RAB025q"  biomass="242.4" biomass_error="NaN" height="26.2" height_error="NaN"/>
+		<ROI name="RAB026q"  biomass="156.9" biomass_error="NaN" height="16.8" height_error="NaN"/>
+		<ROI name="RAB027q"  biomass="184.8" biomass_error="NaN" height="17.8" height_error="NaN"/>
+		<ROI name="RAB028q"  biomass="339.0" biomass_error="NaN" height="26.7" height_error="NaN"/>
+		<ROI name="RAB029q"  biomass="478.8" biomass_error="NaN" height="31.1" height_error="NaN"/>
+		<ROI name="RAB030q"  biomass="183.8" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="RAB031q"  biomass="313.1" biomass_error="NaN" height="25.6" height_error="NaN"/>
+		<ROI name="RAB032q"  biomass="270.6" biomass_error="NaN" height="30.5" height_error="NaN"/>
+		<ROI name="RAB033q"  biomass="472.4" biomass_error="NaN" height="33.5" height_error="NaN"/>
+		<ROI name="RAB034q"  biomass="180.8" biomass_error="NaN" height="24.4" height_error="NaN"/>
+		<ROI name="RAB035q"  biomass="217.7" biomass_error="NaN" height="19.8" height_error="NaN"/>
+		<ROI name="RAB036q"  biomass="220.8" biomass_error="NaN" height="21.3" height_error="NaN"/>
+		<ROI name="RAB037q"  biomass="343.3" biomass_error="NaN" height="18.7" height_error="NaN"/>
+		<ROI name="RAB038q"  biomass="253.2" biomass_error="NaN" height="24.0" height_error="NaN"/>
+		<ROI name="RAB039q"  biomass="248.7" biomass_error="NaN" height="21.6" height_error="NaN"/>
+		<ROI name="RAB040q"  biomass="381.9" biomass_error="NaN" height="22.3" height_error="NaN"/>
+		<ROI name="RAB041q"  biomass="311.4" biomass_error="NaN" height="24.5" height_error="NaN"/>
+		<ROI name="RAB042q"  biomass="257.0" biomass_error="NaN" height="31.1" height_error="NaN"/>
+		<ROI name="RAB043q"  biomass="300.0" biomass_error="NaN" height="25.1" height_error="NaN"/>
+		<ROI name="RAB044q"  biomass="318.3" biomass_error="NaN" height="29.0" height_error="NaN"/>
+		<ROI name="RAB045q"  biomass="230.2" biomass_error="NaN" height="24.6" height_error="NaN"/>
+		<ROI name="RAB046q"  biomass="215.0" biomass_error="NaN" height="23.7" height_error="NaN"/>
+		<ROI name="RAB047q"  biomass="319.4" biomass_error="NaN" height="25.4" height_error="NaN"/>
+		<ROI name="RAB048q"  biomass="292.4" biomass_error="NaN" height="23.7" height_error="NaN"/>
+		<ROI name="RAB049q"  biomass="230.9" biomass_error="NaN" height="21.2" height_error="NaN"/>
+		<ROI name="RAB050q"  biomass="343.1" biomass_error="NaN" height="27.4" height_error="NaN"/>
+		<ROI name="RAB051q"  biomass="306.3" biomass_error="NaN" height="22.9" height_error="NaN"/>
+		<ROI name="RAB052q"  biomass="276.5" biomass_error="NaN" height="26.2" height_error="NaN"/>
+		<ROI name="RAB053q"  biomass="236.1" biomass_error="NaN" height="23.2" height_error="NaN"/>
+		<ROI name="RAB054q"  biomass="386.1" biomass_error="NaN" height="23.3" height_error="NaN"/>
+		<ROI name="RAB055q"  biomass="329.8" biomass_error="NaN" height="20.4" height_error="NaN"/>
+		<ROI name="RAB056q"  biomass="210.5" biomass_error="NaN" height="18.9" height_error="NaN"/>
+		<ROI name="RAB057q"  biomass="173.4" biomass_error="NaN" height="18.1" height_error="NaN"/>
+		<ROI name="RAB058q"  biomass="197.3" biomass_error="NaN" height="21.4" height_error="NaN"/>
+		<ROI name="RAB059q"  biomass="372.5" biomass_error="NaN" height="32.1" height_error="NaN"/>
+		<ROI name="RAB060q"  biomass="305.9" biomass_error="NaN" height="25.5" height_error="NaN"/>
+		<ROI name="RAB061q"  biomass="355.4" biomass_error="NaN" height="19.4" height_error="NaN"/>
+		<ROI name="RAB062q"  biomass="140.2" biomass_error="NaN" height="21.4" height_error="NaN"/>
+		<ROI name="RAB063q"  biomass="281.6" biomass_error="NaN" height="24.2" height_error="NaN"/>
+		<ROI name="RAB064q"  biomass="311.7" biomass_error="NaN" height="25.5" height_error="NaN"/>
+		<ROI name="RAB065q"  biomass="234.9" biomass_error="NaN" height="24.1" height_error="NaN"/>
+		<ROI name="RAB066q"  biomass="299.8" biomass_error="NaN" height="23.9" height_error="NaN"/>
+		<ROI name="RAB067q"  biomass="254.2" biomass_error="NaN" height="19.9" height_error="NaN"/>
+		<ROI name="RAB068q"  biomass="165.2" biomass_error="NaN" height="20.0" height_error="NaN"/>
+		<ROI name="RAB069q"  biomass="474.3" biomass_error="NaN" height="28.1" height_error="NaN"/>
+		<ROI name="RAB070q"  biomass="352.8" biomass_error="NaN" height="27.7" height_error="NaN"/>
+		<ROI name="RAB071q"  biomass="240.8" biomass_error="NaN" height="17.3" height_error="NaN"/>
+		<ROI name="RAB072q"  biomass="278.0" biomass_error="NaN" height="23.9" height_error="NaN"/>
+		<ROI name="RAB073q"  biomass="231.7" biomass_error="NaN" height="25.2" height_error="NaN"/>
+		<ROI name="RAB074q"  biomass="238.4" biomass_error="NaN" height="25.1" height_error="NaN"/>
+		<ROI name="RAB075q"  biomass="175.1" biomass_error="NaN" height="19.6" height_error="NaN"/>
+		<ROI name="RAB076q"  biomass="340.0" biomass_error="NaN" height="25.3" height_error="NaN"/>
+		<ROI name="RAB077q"  biomass="256.2" biomass_error="NaN" height="26.6" height_error="NaN"/>
+		<ROI name="RAB078q"  biomass="344.8" biomass_error="NaN" height="22.9" height_error="NaN"/>
+		<ROI name="RAB079q"  biomass="349.8" biomass_error="NaN" height="28.1" height_error="NaN"/>
+		<ROI name="RAB080q"  biomass="214.9" biomass_error="NaN" height="19.2" height_error="NaN"/>
+		<ROI name="RAB081q"  biomass="359.1" biomass_error="NaN" height="25.8" height_error="NaN"/>
+		<ROI name="RAB082q"  biomass="330.5" biomass_error="NaN" height="24.9" height_error="NaN"/>
+		<ROI name="RAB083q"  biomass="264.8" biomass_error="NaN" height="27.1" height_error="NaN"/>
+		<ROI name="RAB084q"  biomass="282.6" biomass_error="NaN" height="26.7" height_error="NaN"/>
+		<ROI name="RAB085q"  biomass="191.5" biomass_error="NaN" height="22.0" height_error="NaN"/>
+		<ROI name="RAB086q"  biomass="305.7" biomass_error="NaN" height="28.8" height_error="NaN"/>
+		<ROI name="RAB087q"  biomass="732.6" biomass_error="NaN" height="36.6" height_error="NaN"/>
+		<ROI name="RAB088q"  biomass="421.5" biomass_error="NaN" height="34.2" height_error="NaN"/>
+		<ROI name="RAB089q"  biomass="318.8" biomass_error="NaN" height="24.3" height_error="NaN"/>
+		<ROI name="RAB090q"  biomass="197.2" biomass_error="NaN" height="21.8" height_error="NaN"/>
+		<ROI name="RAB091q"  biomass="334.4" biomass_error="NaN" height="26.8" height_error="NaN"/>
+		<ROI name="RAB092q"  biomass="180.9" biomass_error="NaN" height="23.3" height_error="NaN"/>
+		<ROI name="RAB093q"  biomass="177.8" biomass_error="NaN" height="20.6" height_error="NaN"/>
+		<ROI name="RAB094q"  biomass="260.6" biomass_error="NaN" height="28.5" height_error="NaN"/>
+		<ROI name="RAB095q"  biomass="302.3" biomass_error="NaN" height="26.7" height_error="NaN"/>
+		<ROI name="RAB096q"  biomass="384.4" biomass_error="NaN" height="28.1" height_error="NaN"/>
+		<ROI name="RAB097q"  biomass="436.3" biomass_error="NaN" height="34.2" height_error="NaN"/>
+		<ROI name="RAB098q"  biomass="456.7" biomass_error="NaN" height="27.4" height_error="NaN"/>
+		<ROI name="RAB099q"  biomass="350.6" biomass_error="NaN" height="28.3" height_error="NaN"/>
+		<ROI name="RAB100q"  biomass="307.1" biomass_error="NaN" height="24.8" height_error="NaN"/>
+	</ROIs>
+</Orchestrator>
