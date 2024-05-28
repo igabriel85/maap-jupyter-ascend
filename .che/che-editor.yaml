@@ -19,11 +19,6 @@ inline:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
         mountSources: true
-        volumeMounts:
-          - name: jupyter-conda
-            mountPath: /home/user/.conda
-          - name: jupyter-conda-envs
-            mountPath: /home/user/conda
         memoryLimit: 512M
         imagePullPolicy: IfNotPresent
         endpoints:
@@ -36,10 +31,3 @@ inline:
         attributes:
           ports:
             - exposedPort: 8888
-    - name: jupyter-conda-envs
-      volume:
-        size: 15Gi
-    - name: jupyter-conda
-      volume:
-        size: 1Gi
-
