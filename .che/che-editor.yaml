@@ -19,7 +19,7 @@ inline:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
         mountSources: true
-        memoryLimit: 512M
+        memoryLimit: 16Gi
         imagePullPolicy: IfNotPresent
         endpoints:
           - name: jupyter
