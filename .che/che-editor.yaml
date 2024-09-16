@@ -9,12 +9,12 @@ inline:
         publisher: igabriel85
         version: 1.0.0
         title: Jupyter Lab IDE for MAAP
-        repository: 'https://github.com/igabriel85/maap-jupyter-ide'
+        repository: 'https://github.com/igabriel85/maap-jupyter-ide-ascend'
         firstPublicationDate: '2024-03-12'
   components:
     - name: jupyter-ide
       container:
-        image: quay.io/igabriel185/maap-jupyter-ide:latest
+        image: quay.io/igabriel185/maap-jupyter-ide-ascend:latest
         env:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
