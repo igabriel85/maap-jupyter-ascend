@@ -9,7 +9,7 @@ inline:
         publisher: igabriel85
         version: 1.0.0
         title: Jupyter Lab IDE for MAAP
-        repository: 'https://github.com/igabriel85/maap-jupyter-ide-ascend'
+        repository: 'https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide-ascend'
         firstPublicationDate: '2024-03-12'
   components:
     - name: jupyter-ide
