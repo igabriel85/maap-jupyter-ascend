@@ -24,7 +24,7 @@ inline:
         endpoints:
           - name: jupyter
             targetPort: 8888
-            exposure: secure
+            exposure: public
             protocol: https
             attributes:
               type: main
