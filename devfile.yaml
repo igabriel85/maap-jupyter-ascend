@@ -4,8 +4,7 @@ metadata:
 components:
   - name: maapjupyter
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
-      memoryLimit: 8Gi
+      image: quay.io/igabriel185/maap-jupyter-ide-ascend:latest
 commands:
   - id: initgitconfig
     exec:
