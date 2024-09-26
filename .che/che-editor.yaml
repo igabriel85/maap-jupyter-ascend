@@ -26,7 +26,7 @@ inline:
             targetPort: 8888
             exposure: public
             protocol: https
-            secure: 'true'
+            secure: true
             attributes:
               type: main
         attributes:
