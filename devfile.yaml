@@ -5,6 +5,7 @@ components:
   - name: maapjupyter
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
+      memoryLimit: 8Gi
 commands:
   - id: initgitconfig
     exec:
