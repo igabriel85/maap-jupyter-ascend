@@ -18,6 +18,8 @@ inline:
         env:
           - name: JUPYTER_NOTEBOOK_DIR
             value: /projects
+          - name: CONDA_ENVS_PATH
+            value: /projects/envs
         mountSources: true
         memoryLimit: 32Gi
         imagePullPolicy: IfNotPresent
