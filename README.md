@@ -76,4 +76,36 @@ It is also possible to host the IDE devfile in a separate repository and referen
 reference: https://<hostname_and_path_to_a_remote_file>/che-editor.yaml
 
 ```
+# Adding workspace to Eclipse Che
 
+## Manual
+Eclipse Che only requires a valid devfile to create a workspace. The devfile for the MAAP Eclipse Che workspace is located in this repository. Thus, we can just specify
+the URL of this repository in  Eclipse Che workspace creation textbox.
+
+## Kubernetes ConfigMap
+Alternatively, if we have administrator access to Eclipse Che, we can add the workspace to the list of available workspaces in the `getting-started-sample` Kubernetes configmap. We can use `kubectl` as follows:
+
+```bash
+kubectl create configmap getting-started-samples --from-file=jupyter_ide.json -n eclipse-che
+```
+
+```bash
+kubectl label configmap getting-started-samples app.kubernetes.io/part-of=che.eclipse.org app.kubernetes.io/component=getting-started-samples -n eclipse-che
+```
+
+Please note that some of the commands above may require administrator access to the Kubernetes cluster and the Eclipse Che namespace.
+
+An example of the `jupyter_ide.json` file is provided in this repository. The file contains the following information:
+```json
+[
+    {
+        "displayName": "Jupyter MAAP Python 3.9",
+        "description": "Jupyter lab IDE containing the BTK Processor",
+        "tags": "jupyter, python, btk",
+        "url": "https://github.com/igabriel85/maap-jupyter-ascend",
+        "icon": {
+        "base64data": "<base64>",
+        "mediatype": "image/png"
+        }
+    }
+]
