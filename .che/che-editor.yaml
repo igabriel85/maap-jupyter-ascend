@@ -1,16 +1,17 @@
+---
 inline:
   schemaVersion: 2.2.2
   metadata:
-      name: jupyter-ide
-      displayName: MAAP Jupyter Lab IDE
-      description: Jupyter Lab IDE for MAAP
-      icon: /images/notebook.svg
-      attributes:
-        publisher: igabriel85
-        version: 1.0.0
-        title: Jupyter Lab IDE for MAAP
-        repository: 'https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide-ascend'
-        firstPublicationDate: '2024-03-12'
+    name: jupyter-ide
+    displayName: MAAP Jupyter Lab IDE
+    description: Jupyter Lab IDE for MAAP
+    icon: /images/notebook.svg
+    attributes:
+      publisher: igabriel85
+      version: 1.0.0
+      title: Jupyter Lab IDE for MAAP
+      repository: https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide-ascend
+      firstPublicationDate: 2024-03-12
   components:
     - name: jupyter-ide
       container:
