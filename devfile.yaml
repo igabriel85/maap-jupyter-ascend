@@ -3,8 +3,6 @@ metadata:
   name: maap-jupyter-starter
 components:
   - name: maapjupyter
-    container:
-      image: quay.io/igabriel185/maap-jupyter-ide-ascend:latest
 commands:
   - id: initgitconfig
     exec:
