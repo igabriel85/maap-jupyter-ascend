@@ -1,35 +1,35 @@
 schemaVersion: 2.2.2
-  metadata:
-      name: jupyter-ide
-      displayName: MAAP Jupyter Lab IDE
-      description: Jupyter Lab IDE for MAAP
-      icon: /images/notebook.svg
-      attributes:
-        publisher: igabriel85
-        version: 1.0.0
-        title: Jupyter Lab IDE for MAAP
-        repository: 'https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide-ascend'
-        firstPublicationDate: '2024-03-12'
-  components:
-    - name: jupyter-ide
-      container:
-        image: quay.io/igabriel185/maap-jupyter-ide-ascend:latest
-        env:
-          - name: JUPYTER_NOTEBOOK_DIR
-            value: /projects
-          - name: CONDA_ENVS_PATH
-            value: /projects/envs
-        mountSources: true
-        memoryLimit: 32Gi
-        imagePullPolicy: IfNotPresent
-        endpoints:
-          - name: jupyter
-            targetPort: 8888
-            exposure: public
-            protocol: https
-            secure: true
-            attributes:
-              type: main
+metadata:
+  name: jupyter-ide
+  displayName: MAAP Jupyter Lab IDE
+  description: Jupyter Lab IDE for MAAP
+  icon: /images/notebook.svg
+  attributes:
+    publisher: igabriel85
+    version: 1.0.0
+    title: Jupyter Lab IDE for MAAP
+    repository: 'https://gitlab.dev.info.uvt.ro/sage/maap/maap-jupyter-ide-ascend'
+    firstPublicationDate: '2024-03-12'
+components:
+- name: jupyter-ide
+  container:
+    image: quay.io/igabriel185/maap-jupyter-ide-ascend:latest
+    env:
+      - name: JUPYTER_NOTEBOOK_DIR
+        value: /projects
+      - name: CONDA_ENVS_PATH
+        value: /projects/envs
+    mountSources: true
+    memoryLimit: 32Gi
+    imagePullPolicy: IfNotPresent
+    endpoints:
+      - name: jupyter
+        targetPort: 8888
+        exposure: public
+        protocol: https
+        secure: true
         attributes:
-          ports:
-            - exposedPort: 8888
+          type: main
+    attributes:
+      ports:
+        - exposedPort: 8888
